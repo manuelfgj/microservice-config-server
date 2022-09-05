@@ -3,4 +3,4 @@ spring:
     name: greeting-service
 greeting-service:
   greeting: "Hello"
-  default-value: "World Prod"
+  default-value: "World New Prod"
