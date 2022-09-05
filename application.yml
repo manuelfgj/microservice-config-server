@@ -1,15 +1,6 @@
-server:
-  port: 8888
 spring:
   application:
     name: greeting-service
-  cloud:
-    config:
-      server:
-        git:
-          uri: https://github.com/manuelfgj/microservice-config-server
-          #username: manuelfgj
-          #password: password
-          default-label: main
-          search-paths:
-          - 'greeting-service*'
+greeting-service:
+  greeting: "Hello"
+  default-value: "World Default"
